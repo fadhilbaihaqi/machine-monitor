@@ -1,19 +1,19 @@
 ## Clone Repository
 
-git clone https://github.com/fadhilbaihaqi/machine-monitor.git
-cd machine-monitor
+-   git clone https://github.com/fadhilbaihaqi/machine-monitor.git
+-   cd machine-monitor
 
 ## Install Dependencies
 
-composer install
-cp .env.example .env
-php artisan key:generate
+-   composer install
+-   cp .env.example .env
+-   php artisan key:generate
 
 ## Test Aplikasi
 
-php artisan machine:monitor --setup
-php artisan machine:monitor --simulate 5
-php artisan machine:monitor --status
+-   php artisan machine:monitor --setup
+-   php artisan machine:monitor --simulate 5
+-   php artisan machine:monitor --status
 
 ##
 
