@@ -9,7 +9,7 @@ class Machine extends Model
     protected $table = 'machines';
     protected $guarded = ['id'];
 
-    public function FunctionName()
+    public function reading()
     {
         return $this->hasMany(Reading::class);
     }
